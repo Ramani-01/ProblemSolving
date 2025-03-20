@@ -10,6 +10,7 @@ public class IsArraySorted {
             arr[i] = sc.nextInt();
         } 
         System.out.println(isSorted(arr));
+        sc.close();
     }
 
     static boolean isSorted(int[] arr){
@@ -19,5 +20,6 @@ public class IsArraySorted {
             }
         }
         return true;
+        
     }
 }

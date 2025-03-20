@@ -13,6 +13,7 @@ class RemoveDuplicates{
         for(int i = 0; i < newlength; i++){
             System.out.print(arr[i]+" ");
         }
+        sc.close();
     }
 
     static int removeDuplicates(int[] arr){

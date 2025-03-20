@@ -11,6 +11,7 @@ class LeftRotateArrayByOne{
         } 
         rotateArray(arr);
         System.out.println("The Left Rotate Array By one" + Arrays.toString(arr));
+        sc.close();
     }
 
     static void rotateArray(int[] arr){

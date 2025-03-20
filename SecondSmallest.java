@@ -10,6 +10,7 @@ class SecondSmallest{
             arr[i] = sc.nextInt();
         }
         System.out.println("The Second Smallest Number: "+ findSecondSmallest(arr));
+        sc.close();
     }
 
     static int findSecondSmallest(int[] arr){
