@@ -15,6 +15,7 @@ class LeftRotateByK {
         int k = sc.nextInt();
         rotateLeft(arr, k);
         System.out.println(Arrays.toString(arr));
+        sc.close();
 
     }
     static void rotateLeft(int arr[], int k){
