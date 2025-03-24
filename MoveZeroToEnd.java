@@ -21,6 +21,7 @@ public class MoveZeroToEnd {
       }
         static void moveZeroes(int[] nums) {
             int j = 0, i = -1, len = nums.length;
+            
             while (j < len) {
                 if (nums[j] != 0) {
                     i++;
