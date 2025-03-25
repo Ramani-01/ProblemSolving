@@ -11,6 +11,7 @@ public record NumAppersTwiceBruteForce() {
             arr[i] = sc.nextInt();
         }
         System.out.println("The single element: "+ singleNumber(arr));
+        sc.close();
     }
 
     static int singleNumber(int[] nums){
