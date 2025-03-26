@@ -28,6 +28,7 @@ class SingleNumber{
             return arr[index];
         }
     }
+    
     return -1;
    }
 
